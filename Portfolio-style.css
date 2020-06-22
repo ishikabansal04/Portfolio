@@ -1,0 +1,290 @@
+body{
+	background: #A4C400 url(https://images.wallpaperscraft.com/image/man_snow_tourist_134085_3840x2400.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+
+.Personal ul {
+	list-style: none;
+	padding: 0%;
+	margin-left: 25%;
+	width: 100vh;
+	/* text-align: center; */
+}
+
+.Personal ul li{
+	display: inline-block;
+	background: #F96714;
+	padding: 0.2% 3.5%;
+	margin-left: 1%;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	-ms-border-radius: 15px;
+	opacity: 0.8;
+}
+
+h1{
+	text-align: center;
+	color: #012998;
+	text-transform: uppercase;
+	font-size: 225%;
+	margin:15px auto;
+	margin-bottom: 5px;
+}
+
+
+h2{ 
+
+	text-align: center;
+	color: #012998;
+	font-variant: small-caps;
+	font-size: 235%;
+	margin:15px auto;
+	margin-bottom: 5px;
+}
+
+
+.Education table, .Certifications table,.WorkExperience table, .Projects table{
+
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 80px;
+	padding: 20px;
+	width: 100vh;
+	line-height: 60px;
+}
+
+
+.Education table tr:nth-child(odd), .WorkExperience table tr:nth-child(odd), .Certifications table tr:nth-child(odd), .Projects table tr:nth-child(odd){
+	background: #9DF9EF;
+	opacity: 0.8;
+}
+
+
+.Education table tr:nth-child(even), .WorkExperience table tr:nth-child(even), .Certifications table tr:nth-child(even), .Projects table tr:nth-child(even){
+	background: #00DDFF;
+	opacity: 0.8;
+}
+
+.WorkExperience table tr:first-child, .Certifications table tr:first-child, .Projects table tr:first-child{
+	background: none;
+	opacity:1;
+}
+
+
+table tr{
+	color: #101357;
+	font-weight: 500;
+	font-size: 105%;
+}
+
+.Education table tr{
+	font-size: 88%;
+}
+
+.WorkExperience table th, .Certifications table th, .Projects table th{
+	background: #012998;
+	color: #FFFFFF;
+	font-style: oblique 15deg;
+	font-family: "Helvetica";
+	border-bottom: 5px solid #FF2D55;
+
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-o-border-radius: 10px 10px 0px 0px;
+	-ms-border-radius: 10px 10px 0px 0px;
+}
+
+ td{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+table td{
+	text-align: center;
+}
+
+.Education table td:first-child{
+	text-align: left;
+}
+
+.Education table td:first-child{
+	text-align: center;
+}
+
+ .Projects table td:nth-child(2){
+	text-align: left;
+}
+
+.Skills{
+	margin-bottom: 5%;
+}
+
+
+.Skills ul{
+	list-style: none;
+}
+
+
+ .Education table tr:hover, .WorkExperience table tr:hover, .Certifications table tr:hover, .Projects table tr:hover{
+	background: #000000;
+	color: #D4D4DC;
+	transition: ease-in 0.2s;
+}
+
+table tr:hover a{
+	color: #D4D4DC;
+}
+
+.Skills ul li{
+	display: inline-block;
+	background: #000000;
+	color: #FFFFFF;
+	padding: 1% 2%;
+	margin: 2%;
+	margin-top: 0.5%;
+	margin-left: 4.5%;
+	width:5%;
+	text-align: center;
+	opacity: 0.6;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+
+
+.Skills ul li:hover{
+	background: #FF2D55;
+
+	-webkit-transition: ease-in 0.2s;
+	-moz-transition: ease-in 0.4s;
+	-o-transition: ease-in 0.4s;
+	-ms-transition: ease-in 0.4s;
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	opacity: 0.8;
+}
+
+.Accomplishments{
+	padding: 2%;
+}
+
+.Accomplishments ul{
+   list-style: none;
+}
+
+.Accomplishments ul li{
+	display: inline-block;
+	background: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin: 1% auto;
+	margin-left: 2%;
+	width:14%;
+	text-align: center;
+	opacity: 0.6;
+	font-size: 110%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+
+
+.Accomplishments ul li:hover{
+	background: #FFFFFF;
+	color: #000000;
+	-webkit-transition: ease-in 0.4s;
+	-moz-transition: ease-in 0.4s;
+	-o-transition: ease-in 0.4s;
+	-ms-transition: ease-in 0.4s;
+	-webkit-transform: rotate(360deg);
+
+	opacity: 0.8;	
+}
+
+.Communities ul{
+	list-style: none;
+}
+
+
+.Communities ul li{
+	display: inline-block;
+	background: #FFFFFF;
+	color: #000000;
+	padding: 1%;
+	margin: 1% auto;
+	margin-left: 2%;
+	width:14%;
+	text-align: center;
+	opacity: 0.7;
+	font-size: 110%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+
+
+.Communities ul li:nth-child(8){
+	width: 18%;
+}
+
+
+.Communities ul li:nth-child(3){
+	margin-left: 4%;
+}
+
+
+.Communities ul li:nth-child(4){
+	margin-left: 4%;
+}
+
+
+.Communities ul li:nth-child(5){
+	margin-left: 2.5%;
+}
+
+.Communities ul li:nth-child(11){
+	margin-left: 40.5%;
+}
+
+
+.Communities ul li:hover{
+	background: #000000;
+	color: #FFFFFF;
+	-webkit-transition: ease-in 0.4s;
+	-moz-transition: ease-in 0.4s;
+	-o-transition: ease-in 0.4s;
+	-ms-transition: ease-in 0.4s;
+	-webkit-transform: rotate(360deg);
+
+	opacity: 0.8;	
+}
+
+
+footer{
+	margin-top: 5%;
+}
+
+
+footer ul{
+	list-style: none;
+}
+
+
+footer ul li{
+	display: inline-block;
+	margin-left: 15%;
+	margin-bottom: 5%
+}
+
+
+footer ul li:hover{
+	color: #FF2D55;
+}
